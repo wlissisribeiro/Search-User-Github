@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Outlet } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Ola</h1>
+     <h1>Github Finder</h1>
+     <Outlet/>
     </div>
   )
 }
